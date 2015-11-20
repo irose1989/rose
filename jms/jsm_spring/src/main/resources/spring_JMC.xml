@@ -48,7 +48,11 @@
 
     <!--我们在配置一个MessageListenerContainer的时候有三个属性必须指定，
     一个是表示从哪里监听的ConnectionFactory；一个是表示监听什么的Destination；
-    一个是接收到消息以后进行消息处理的MessageListener-->
+    一个是接收到消息以后进行消息处理的MessageListener
+    Spring一共为我们提供了两种类型的MessageListenerContainer，SimpleMessageListenerContainer和DefaultMessageListenerContainer。
+    DefaultMessageListenerContainer会动态的适应运行时需要，并且能够参与外部的事务管理。
+    它很好的平衡了对JMS提供者要求低、先进功能如事务参与和兼容Java EE环境。
+    -->
     <!-- 消息监听容器 -->
     <bean id="jmsContainer"        class="org.springframework.jms.listener.DefaultMessageListenerContainer">
         <property name="connectionFactory" ref="connectionFactory" />
