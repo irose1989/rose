@@ -1,0 +1,11 @@
+http://blog.163.com/xiechunhao@126/blog#m=0&t=1&c=fks_084067093081080068086084086095085087081071085087085075087
+
+JMS - JMS - JMS​应​用​领​域 应用场景
+http://itindex.net/detail/49721-jms-jms-%E5%BA%94%E7%94%A8
+
+ActiveMQ地址:http://localhost:8161/admin/
+
+深入掌握JMS（二）：http://william750214.iteye.com/blog/721495
+
+Spring整合JMS(一)——基于ActiveMQ实现:
+http://haohaoxuexi.iteye.com/blog/1893038      --nice
