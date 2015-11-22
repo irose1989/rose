@@ -1,4 +1,4 @@
-package service;
+package service.messageListener;
 
 import javax.jms.JMSException;
 import javax.jms.Message;
@@ -15,6 +15,9 @@ public class ConsumerMessageListener implements MessageListener {
         System.out.println("接收到一个纯文本消息。");
         try {
             System.out.println("消息内容是：" + textMsg.getText());
+//            if(1==1){
+//                throw new RuntimeException("Error");
+//            }
         } catch (JMSException e) {
             e.printStackTrace();
         }
